@@ -1,15 +1,155 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Exercise</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
-</body>
-
+  <body>
+    <header class="flex bg_green">
+      <nav class="flex">
+        <a href="#"
+          ><img src="\images\logo.png" alt="logo de l'entreprise Start"
+        /></a>
+        <ul class="flex">
+          <li><a class="subheading" href="#">Home</a></li>
+          <li><a class="subheading" href="#">Portfolio</a></li>
+          <li><a class="subheading" href="#">Services</a></li>
+          <li><a class="subheading" href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero bg_green flex">
+        <div class="hero_content flex_col">
+          <p class="label white">WELCOME</p>
+          <h1 class="white">
+            Lorem ipsum dolor sit<br />
+            amet consectetur
+          </h1>
+          <p class="body white75">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
+            voluptate culpa nesciunt delectus iste?
+          </p>
+          <a class="subheading button_white" href="#">Explore</a>
+        </div>
+        <img class="hero_img"
+          src="\images\hero_img.png"
+          alt="trois personnes en train de soumettre des idées"
+        />
+    </section>
+    <section class="partners flex_col align_center">
+      <div class="partners_top flex_col align_center">
+        <p class="label green">PARTNERS</p>
+        <h2>Lorem Ipsum Dolor</h2>
+        <p class="subheading p_center">
+          Lorem ipsum, dolor sit amet consectetur<br />
+          adipisicing elit.
+        </p>
+      </div>
+      <div class="partners_logos">
+        <img
+          class="margin_auto companies_logo"
+          src="\images\logo1.png"
+          alt="logo de l'entreprise Google"
+        />
+        <img
+          class="margin_auto companies_logo"
+          src="\images\logo2.png"
+          alt="logo de l'entreprise Microsoft"
+        />
+        <img
+          class="margin_auto companies_logo"
+          src="\images\logo3.png"
+          alt="logo de l'entreprise AirBnb"
+        />
+        <img
+          class="margin_auto companies_logo"
+          src="\images\logo4.png"
+          alt="logo de l'entreprise Facebook"
+        />
+        <img
+          class="margin_auto companies_logo"
+          src="\images\logo5.png"
+          alt="logo de l'entreprise Spotify"
+        />
+      </div>
+      <a class="subheading button_black" href="#">Learn more</a>
+    </section>
+    <section class="section2 flex">
+        <img class="section2_img"
+          src="\images\img1.png"
+          alt="trois personnes à distance dans une bulle en train de s'envoyer des messages "
+        />
+        <div class="section2_content">
+          <h2 class="black">Lorem ipsum dolor sit amet consectetur</h2>
+          <p class="body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
+            voluptate culpa nesciunt delectus iste?
+          </p>
+          <a class="button_black" href="#">Learn more</a>
+        </div>
+    </section>
+    <section class="section3 flex">
+      <div class="section3_content">
+        <h2 class="black">Lorem ipsum dolor sit amet consectetur</h2>
+        <p class="body">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+          nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
+          voluptate culpa nesciunt delectus iste?
+        </p>
+        <a class="button_black" href="#">Learn more</a>
+      </div>
+      <img class="section3_img"
+        src="\images\img2.png"
+        alt="trois personnes à distance dans une bulle en train de s'envoyer des messages "
+      />
+    </section>
+    <section class="flex_col team align_center">
+        <div class="flex_col align_center gap_1rem">
+            <p class="label green">TEAM</p>
+            <h2 class="black">Our Talents</h2>
+            <p class="subheading p_center">Lorem ipsum, dolor sit amet consectetur
+Suscipit nemo hic quos, ab,</p>
+        </div>
+        <div class="team_talents">
+            <div class="team_card flex_col">
+                <img class="team_photo" src="\images\portrait1.jpg" alt="portrait d'une">
+                <h4 class="black">Peg Legge</h4>
+                <p class="body">CEO</p>
+            </div>
+            <div class="team_card flex_col">
+                <img class="team_photo" src="\images\portrait2.jpg" alt="portrait d'une">
+                <h4 class="black">Richard Guerra</h4>
+                <p class="body">CTO</p>
+            </div>
+            <div class="team_card flex_col">
+                <img class="team_photo" src="\images\portrait3.jpg" alt="portrait d'une">
+                <h4 class="black">Alexandra Stolz</h4>
+                <p class="body">DESIGNER</p>
+            </div>
+            <div class="team_card flex_col">
+                <img class="team_photo" src="\images\portrait4.jpg" alt="portrait d'une">
+                <h4 class="black">Janet Bray</h4>
+                <p class="body">DEVELOPER  </p>
+            </div>
+        </div>
+        <a class="subheading button_black" href="#">View Team</a>
+    </section>
+    <footer class="bg_green flex">
+        <div class="footer_socials">
+            <a href="#"><img src="\images\social1.png" alt="logo de facebook"></a>
+            <a href="#"><img src="\images\social2.png" alt="logo d'instagram"></a>
+            <a href="#"><img src="\images\social3.png" alt="logo de twitter"></a>
+            <a href="#"><img src="\images\social4.png" alt="logo de pinterest"></a>
+            <a href="#"><img src="\images\social5.png" alt="logo de tiktok"></a>
+            <a href="#"><img src="\images\social6.png" alt="logo de whatsapp"></a>
+            <a href="#"><img src="\images\social7.png" alt="logo de youtube"></a>
+        </div>
+        <p class="subheading white">© Start, 2022. All rights reserved.</p>
+    </footer>
+  </body>
 </html>

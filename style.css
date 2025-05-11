@@ -1,9 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  min-width: 100%;
+}
+
+header {
+  width: 100%;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+footer {
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 8%;
+}
+
+section {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 85%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  gap: 2rem;
+}
+
+ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {
@@ -49,8 +92,396 @@ h6 {
 }
 
 .subheading {
-  font-family: "Crimson Text", serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 125%;
+}
+
+.label {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 125%;
+}
+
+.body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.body_bold {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  line-height: 125%;
+}
+
+.black {
+  color: #212529;
+}
+
+.p_center {
+  text-align: center;
+}
+
+.bg_green {
+  background-color: #74c69d;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex_col {
+  display: flex;
+  flex-direction: column;
+}
+
+.align_center {
+  align-items: center;
+}
+
+.justify_center {
+  justify-content: center;
+}
+
+.gap_1rem {
+  gap: 1rem;
+}
+
+.white {
+  color: white;
+}
+
+.white75 {
+  color: white;
+  opacity: 75%;
+}
+
+.green {
+  color: #74c69d;
+}
+
+.hero {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 8%;
+}
+
+.hero_content {
+  width: 40%;
+  gap: 1rem;
+}
+
+.hero_img {
+  width: 50%;
+  height: 100%;
+}
+
+.button_white {
+  background-color: white;
+  border: transparent;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  width: fit-content;
+  color: black;
+  margin-top: 10px;
+}
+
+.button_black {
+  background-color: #212529;
+  border: transparent;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  width: fit-content;
+  color: white;
+}
+
+.partners {
+  padding: 3rem 0;
+  gap: 3rem;
+}
+
+.partners_top {
+  gap: 1rem;
+}
+
+.partners_logos {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  margin: auto;
+}
+
+.companies_logo {
+  width: 180px;
+}
+
+.margin_auto {
+  margin: auto;
+}
+
+.section2 {
+  justify-content: space-between;
+  padding: 2rem 8%;
+}
+
+.section2_content {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  gap: 1rem;
+}
+
+.section3 {
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 8%;
+}
+
+.section3_content {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  gap: 1rem;
+}
+
+.team {
+  gap: 3rem;
+  padding: 2rem 8%;
+}
+
+.team_talents {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.team_card {
+  width: fit-content;
+  background-color: white;
+  border: transparent;
+  border-radius: 5px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  padding: 1rem 2rem;
+  gap: 1rem;
+}
+
+.team_photo {
+  width: 175px;
+  height: 175px;
+  border: 1px solid black;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.footer_socials {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.portfolio {
+  padding: 2rem 6%;
+  gap: 4rem;
+  margin-bottom: 3rem;
+}
+
+.portfolio_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+}
+
+.portfolio_img {
+  width: fit-content;
+  margin: auto;
+}
+
+.services {
+  padding: 2rem 6%;
+  gap: 4rem;
+  margin-bottom: 4rem;
+}
+
+.services_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.services_card {
+  padding: 3rem 2rem;
+  border: transparent;
+  border-radius: 5px;
+  box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.25);
+  gap: 2rem;
+  width: 90%;
+  margin: auto;
+}
+
+.dollars {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 125%;
+}
+.gap_05 {
+  gap: 0.5rem;
+}
+
+.gap_2rem {
+  gap: 2rem;
+}
+
+.contact_form {
+  display: flex;
+  padding: 2rem 6%;
+  margin-bottom: 3rem;
+}
+
+.contact_title {
+  padding: 2rem 6%
+}
+
+form {
+  width: 100%;
+}
+
+label {
+  margin-bottom: 1rem;
+}
+
+input {
+  margin-bottom: 1.25rem;
+  background-color: #EEEEEE;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+textarea {
+  margin-bottom: 1.25rem;
+  background-color: #EEEEEE;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem;
+  height: 5rem;
+}
+
+button {
+  display: block;
+  background-color: #212529;
+  border: transparent;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  width: 100%;
+  color: white;
+}
+
+@media (max-width: 400px) {
+  .hero {
+    width: fill;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    padding: 5% 4%;
+    gap: 1rem;
+  }
+
+  .hero_content {
+    width: fit-content;
+  }
+
+  .partners_logos {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .hero_img {
+    width: 100%;
+  }
+
+  .partners {
+    padding: 5% 4%;
+  }
+
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    padding: 5% 4%;
+  }
+
+  .section2_content {
+    width: 100%;
+  }
+
+  .section2_img {
+    width: 100%;
+  }
+
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+    padding: 5% 4%;
+  }
+
+  .section3_content {
+    width: 100%;
+  }
+
+  .section3_img {
+    width: 100%;
+  }
+
+  .team {
+    padding: 5% 4%;
+  }
+
+  .team_talents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 4%;
+    gap: 1.25rem;
+  }
+
+  .portfolio {
+    padding: 5% 4%;
+    gap: 2rem;
+  }
+
+  .portfolio_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio_img {
+    width: 100%;
+  }
+
+  .services_cards {
+    grid-template-columns: 1fr;
+  }
+
+  .contact_form {
+    flex-direction: column-reverse;
+  }
+
 }
